@@ -1,0 +1,42 @@
+/*
+* Author: Karime Saad
+* My Website - CSS page
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Raleway', sans-serif;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+p {
+	font-size: 14px;
+}
+
+/* ===== Generic CSS ====*/
+
+.section-title {
+	padding-top: 90px;
+	padding-bottom: 50px;
+}
+
+.section-title
+
+
+
+
+
+
+
+
+
+/*
+* FONTS: font-family: 'Raleway', sans-serif;
+		 font-family: 'Source Sans Pro', sans-serif;
+*/
