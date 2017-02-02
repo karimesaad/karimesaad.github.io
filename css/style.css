@@ -10,29 +10,242 @@
 }
 
 body {
-	font-family: 'Raleway', sans-serif;
-	overflow-y: scroll;
+	/*font-family: 'Raleway', sans-serif;*/
+	font-family: 'Quicksand', sans-serif;
+    overflow-y: scroll;
 	overflow-x: hidden;
 }
 
-p {
-	font-size: 14px;
+h3 {
+    font-size: 22px;
+    padding-bottom: 40px;
+    line-height: 160%;
 }
+
+p {
+	font-size: 18px;
+    padding-bottom: 25px;
+}
+
+
 
 /* ===== Generic CSS ====*/
 
 .section-title {
-	padding-top: 90px;
-	padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    
+}
+.section-title h2 {
+    position: relative;
+    text-align: center;
+    color: #333;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.section-title h2:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50%;
+    width: 60px;
+    height: 1px;
+    background-color: #129CF3;
+    margin-left: -30px;
 }
 
-.section-title
+.section-title p {
+    color: #333;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+    margin-top: 45px;
+}
+
+/* ===== Navigation ====*/
+
+.navbar-default {
+    background-color:  ;
+    opacity: 0.7;
+    border-color: #444;
+    z-index: 110;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+    font-family: "Raleway", sans-serif;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #000;
+    font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:focus {
+    color: #B5B5B5;
+}
+.navbar-brand {
+    padding: 9px 15px;
+}
+.navbar-brand img  {
+     transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.navbar-default .navbar-nav > .active>a, 
+.navbar-default .navbar-nav > .active>a:hover,
+.navbar-default .navbar-nav > .active>a:focus {
+    background-color: transparent;
+    color: #129CF3;
+} 
+
+
+/* ======== Header ======== */
+
+.header{
+    background-image: url("../images/foto_3.JPG") ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    
+}
+
+.header-text h1 {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 300;
+    line-height: 45px;
+    padding-top: 380px;
+    padding-left: 40px;
+ 
+    text-align: right;
+}
+
+.header-text h2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: 300;
+    line-height: 45px;
+    padding-top: 10px;
+    padding-bottom: 200px;
+
+    text-align: right;
+
+}
+
+.header-text p {
+    color: #fff;
+    font-size: 17px;
+    line-height: 28px;
+    font-weight: 300;
+}
+
+
+.header-overlay {
+    background-color: rgba(31, 31, 31, 0);
+
+}
+/* ========  Contact Me section ===== */
+
+.contact-me {
+    background-image: url("../images/foto_11.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.contact-me-overlay{
+        background-color: rgba(31, 31, 31, 0.5);
+}
+
+.contact-me .section-title h2, .section-title p{
+    color: #fff;
+    border: #fff;
+}
+
+.contact-me-form .form-control {
+    display: block;
+    width: 100%;
+    height: 50px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #555;
+    background-color: white;
+    opacity: .7;
+    border: 1px solid #aeaeae;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    opacity: .8;
+    outline: 0px !important;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+    
+}
+
+.contact-me-form .container {
+    padding-bottom: 40px;
+}
+
+#message {
+    height: 134px;
+    resize: none;
+}
+.submit-btn,
+.submit-btn:active,
+.submit-btn:focus,
+.submit-btn:visited {
+    
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 4px;
+    width: 100%;
+    height: 30px;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: white;
+    outline: 0px !important;
+    transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.submit-btn:hover {
+    background: #fff;
+    color: #333;
+    border-color: #fff;
+}
 
 
 
 
 
 
+/*===== footer =====*/
+
+.footer {
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
 
 
 
