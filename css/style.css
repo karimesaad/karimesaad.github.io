@@ -27,6 +27,12 @@ p {
     padding-bottom: 25px;
 }
 
+li {
+        font-size: 16px;
+        line-height: 160%;
+
+}
+
 
 
 /* ===== Generic CSS ====*/
@@ -158,6 +164,19 @@ p {
     background-color: rgba(31, 31, 31, 0);
 
 }
+
+
+/*===== Experience Section ======*/
+
+.list-programming {
+    font-size: 18px;
+}
+
+.experience-description h3 {
+    padding-bottom: 5px;
+}
+
+
 /* ========  Contact Me section ===== */
 
 .contact-me {
